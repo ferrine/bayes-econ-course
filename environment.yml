@@ -1,0 +1,24 @@
+name: bayes-econ
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - arviz
+  - dask
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - patsy
+  - pip
+  - python-graphviz
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pymc>=4.1.1
+  - h5py
+  - holidays
+  - pip:
+    - pandas_datareader
+    - git+https://github.com/pymc-devs/pymc-experimental.git
